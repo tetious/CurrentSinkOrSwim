@@ -1,0 +1,217 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:general
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LMV358 U?
+U 1 1 57896199
+P 2900 5500
+F 0 "U?" H 2850 5700 50  0000 L CNN
+F 1 "LMV358" H 2850 5250 50  0000 L CNN
+F 2 "" H 2900 5500 50  0000 C CNN
+F 3 "" H 2900 5500 50  0000 C CNN
+	1    2900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 578965C1
+P 1400 6150
+F 0 "R?" V 1480 6150 50  0000 C CNN
+F 1 "R" V 1400 6150 50  0000 C CNN
+F 2 "" V 1330 6150 50  0000 C CNN
+F 3 "" H 1400 6150 50  0000 C CNN
+	1    1400 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 578965F2
+P 4300 6250
+F 0 "R?" V 4380 6250 50  0000 C CNN
+F 1 "R" V 4300 6250 50  0000 C CNN
+F 2 "" V 4230 6250 50  0000 C CNN
+F 3 "" H 4300 6250 50  0000 C CNN
+	1    4300 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_DGS Q?
+U 1 1 57896656
+P 4200 5500
+F 0 "Q?" H 4500 5550 50  0000 R CNN
+F 1 "Q_NMOS_DGS" H 4850 5450 50  0000 R CNN
+F 2 "" H 4400 5600 50  0000 C CNN
+F 3 "" H 4200 5500 50  0000 C CNN
+	1    4200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5789697A
+P 3200 6700
+F 0 "#PWR?" H 3200 6450 50  0001 C CNN
+F 1 "GND" H 3200 6550 50  0000 C CNN
+F 2 "" H 3200 6700 50  0000 C CNN
+F 3 "" H 3200 6700 50  0000 C CNN
+	1    3200 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57896BE9
+P 2800 5800
+F 0 "#PWR?" H 2800 5550 50  0001 C CNN
+F 1 "GND" H 2800 5650 50  0000 C CNN
+F 2 "" H 2800 5800 50  0000 C CNN
+F 3 "" H 2800 5800 50  0000 C CNN
+	1    2800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TC1016 U?
+U 1 1 57896C57
+P 3650 4750
+F 0 "U?" H 3800 4554 50  0000 C CNN
+F 1 "TC1016" H 3650 4950 50  0000 C CNN
+F 2 "" H 3650 4750 50  0000 C CNN
+F 3 "" H 3650 4750 50  0000 C CNN
+	1    3650 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57896EEF
+P 3650 5200
+F 0 "#PWR?" H 3650 4950 50  0001 C CNN
+F 1 "GND" H 3650 5050 50  0000 C CNN
+F 2 "" H 3650 5200 50  0000 C CNN
+F 3 "" H 3650 5200 50  0000 C CNN
+	1    3650 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57897200
+P 3200 4950
+F 0 "C?" H 3225 5050 50  0000 L CNN
+F 1 "C" H 3225 4850 50  0000 L CNN
+F 2 "" H 3238 4800 50  0000 C CNN
+F 3 "" H 3200 4950 50  0000 C CNN
+	1    3200 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57897228
+P 4100 4950
+F 0 "C?" H 4125 5050 50  0000 L CNN
+F 1 "C" H 4125 4850 50  0000 L CNN
+F 2 "" H 4138 4800 50  0000 C CNN
+F 3 "" H 4100 4950 50  0000 C CNN
+	1    4100 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4700 4800 4700
+Wire Wire Line
+	4300 4700 4300 5300
+Wire Wire Line
+	3200 5500 4000 5500
+Wire Wire Line
+	1550 4700 3250 4700
+Wire Wire Line
+	2800 4700 2800 5200
+Wire Wire Line
+	1400 5800 1400 6000
+Wire Wire Line
+	1400 5950 2100 5950
+Wire Wire Line
+	2100 5950 2100 5400
+Wire Wire Line
+	2100 5400 2600 5400
+Connection ~ 1400 5950
+Wire Wire Line
+	1400 6550 4300 6550
+Wire Wire Line
+	1400 6550 1400 6300
+Wire Wire Line
+	3200 6700 3200 6550
+Connection ~ 3200 6550
+Wire Wire Line
+	2600 5600 2600 6000
+Wire Wire Line
+	4300 6550 4300 6400
+Wire Wire Line
+	4300 5700 4300 6100
+Wire Wire Line
+	2600 6000 4300 6000
+Connection ~ 4300 6000
+Connection ~ 4300 4700
+Connection ~ 2800 4700
+Wire Wire Line
+	3650 5000 3650 5200
+Wire Wire Line
+	3200 5100 4100 5100
+Connection ~ 3650 5100
+Wire Wire Line
+	3200 4800 3200 4700
+Connection ~ 3200 4700
+Wire Wire Line
+	4100 4800 4100 4700
+Connection ~ 4100 4700
+$Comp
+L POT RV?
+U 1 1 57897C42
+P 1400 5650
+F 0 "RV?" H 1400 5570 50  0000 C CNN
+F 1 "POT" H 1400 5650 50  0000 C CNN
+F 2 "" H 1400 5650 50  0000 C CNN
+F 3 "" H 1400 5650 50  0000 C CNN
+	1    1400 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 4700 1550 5650
+$EndSCHEMATC

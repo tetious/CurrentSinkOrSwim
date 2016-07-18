@@ -1,4 +1,4 @@
-update=Fri 15 Jul 2016 06:18:34 PM EDT
+update=Sun 17 Jul 2016 08:15:06 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,14 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=general
+LibName31=gl-power
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=50

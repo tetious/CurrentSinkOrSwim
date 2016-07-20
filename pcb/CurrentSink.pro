@@ -1,4 +1,4 @@
-update=Sun 17 Jul 2016 09:36:19 PM EDT
+update=Mon 18 Jul 2016 04:00:49 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,6 +58,8 @@ LibName28=contrib
 LibName29=valves
 LibName30=general
 LibName31=gl-power
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -68,5 +70,3 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=50
-[general]
-version=1

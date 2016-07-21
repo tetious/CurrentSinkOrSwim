@@ -1,0 +1,20 @@
+G04 DipTrace 3.0.0.2*
+G04 BottomPaste.gbr*
+%MOIN*%
+G04 #@! TF.FileFunction,Paste,Bot*
+G04 #@! TF.Part,Single*
+%ADD71R,0.043181X0.051055*%
+%FSLAX26Y26*%
+G04*
+G70*
+G90*
+G75*
+G01*
+G04 BotPaste*
+%LPD*%
+D71*
+X1544000Y869000D3*
+X1469197D3*
+X1369000Y1544000D3*
+X1294197D3*
+M02*
